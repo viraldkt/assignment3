@@ -21,13 +21,37 @@ header {
 
 h1 {
   font-family: 'Tangerine', serif;
-  font-size: 60px;
+  font-size: 40px;
   text-shadow: 4px 4px 4px #aaa;
   color: black;
 }
 
+@media (min-width: 360px) , (max-width: 575px) {
+.navbar-brand .embossed {
+    font-size: 50px;
+    padding: 0;
+    margin-left: -50px;
+    }
+}
+
+.embossed {
+  color: #404040;
+  font-size: 80px;
+  background-color: #666666;
+  text-shadow: 1px 4px 4px #555;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
 #main-content {
   width: 100%;
+  margin-top: 25px;
+}
+
+h2 {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
 }
 
 .text-center {
@@ -42,6 +66,7 @@ h1 {
   background-color: #bfbfbf;
   color: black;
   font-family: 'Oxygen', sans-serif;
+  box-shadow: 0px 0px 3px 3px black;
 }
 
 h3 {
@@ -51,4 +76,14 @@ h3 {
 
 #tile-p {
   padding: 5px;
+}
+
+#embossed-li {
+  color: #404040;
+  font-size: 20px;
+  background-color: #666666;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
